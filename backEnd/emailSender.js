@@ -7,7 +7,7 @@ const candidatureMERN = require('./messageGe')
 
 
 const simoEmail = "eddahmani.mohamed11@gmail.com";
-const simoAppPassword = "oera bsao xxch qhnu";
+const simoAppPassword = process.env.SIMO_APP_PASSWORD;
 
 const khedmaSuject = 'Candidature – Développeur Full Stack Junior "YouCode/UM6P"'
 
